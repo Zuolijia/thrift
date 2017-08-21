@@ -1,0 +1,78 @@
+﻿  WinFcntl.cpp
+  TWinsockSingleton.cpp
+  SocketPair.cpp
+  OverlappedSubmissionThread.cpp
+  GetTimeOfDay.cpp
+  VirtualProfiling.cpp
+  TTransportUtils.cpp
+  TTransportException.cpp
+  TSSLServerSocket.cpp
+  TSocketPool.cpp
+  TSocket.cpp
+f:\programfiles\thrift\thrift-0.9.3\lib\cpp\src\thrift\transport\tsocket.cpp(686): warning C4838: 从“int”转换到“u_short”需要收缩转换
+  TFileTransport.cpp
+  TSimpleFileTransport.cpp
+  TServerSocket.cpp
+  TPipeServer.cpp
+  TPipe.cpp
+  THttpTransport.cpp
+  THttpServer.cpp
+  THttpClient.cpp
+  TFDTransport.cpp
+  正在生成代码...
+  正在编译...
+  TBufferTransports.cpp
+  TOutput.cpp
+  TApplicationException.cpp
+  TThreadedServer.cpp
+  TThreadPoolServer.cpp
+  TSimpleServer.cpp
+  TServerFramework.cpp
+  TServer.cpp
+  TConnectedClient.cpp
+  TProtocol.cpp
+  TMultiplexedProtocol.cpp
+  TJSONProtocol.cpp
+  TDebugProtocol.cpp
+  TBase64Utils.cpp
+  PeekProcessor.cpp
+  Util.cpp
+  TimerManager.cpp
+f:\programfiles\thrift\thrift-0.9.3\lib\cpp\src\thrift\concurrency\timermanager.cpp(165): warning C4297: “apache::thrift::concurrency::TimerManager::~TimerManager”: 假定函数不引发异常，但确实发生了
+  f:\programfiles\thrift\thrift-0.9.3\lib\cpp\src\thrift\concurrency\timermanager.cpp(165): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  ThreadManager.cpp
+  StdThreadFactory.cpp
+  StdMutex.cpp
+  正在生成代码...
+  正在编译...
+  StdMonitor.cpp
+  BoostThreadFactory.cpp
+  BoostMutex.cpp
+  BoostMonitor.cpp
+  TConcurrentClientSyncInfo.cpp
+  TAsyncProtocolProcessor.cpp
+  TAsyncChannel.cpp
+  正在生成代码...
+VirtualProfiling.obj : warning LNK4221: 此对象文件未定义任何之前未定义的公共符号，因此任何耗用此库的链接操作都不会使用此文件
+BoostMutex.obj : warning LNK4006: "public: __cdecl apache::thrift::concurrency::Mutex::Mutex(void (__cdecl*)(void *))" (??0Mutex@concurrency@thrift@apache@@QEAA@P6AXPEAX@Z@Z) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: static void __cdecl apache::thrift::concurrency::Mutex::DEFAULT_INITIALIZER(void *)" (?DEFAULT_INITIALIZER@Mutex@concurrency@thrift@apache@@SAXPEAX@Z) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: void * __cdecl apache::thrift::concurrency::Mutex::getUnderlyingImpl(void)const " (?getUnderlyingImpl@Mutex@concurrency@thrift@apache@@QEBAPEAXXZ) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Mutex::lock(void)const " (?lock@Mutex@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: virtual bool __cdecl apache::thrift::concurrency::Mutex::timedlock(__int64)const " (?timedlock@Mutex@concurrency@thrift@apache@@UEBA_N_J@Z) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: virtual bool __cdecl apache::thrift::concurrency::Mutex::trylock(void)const " (?trylock@Mutex@concurrency@thrift@apache@@UEBA_NXZ) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMutex.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Mutex::unlock(void)const " (?unlock@Mutex@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMutex.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: __cdecl apache::thrift::concurrency::Monitor::Monitor(class apache::thrift::concurrency::Monitor *)" (??0Monitor@concurrency@thrift@apache@@QEAA@PEAV0123@@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: __cdecl apache::thrift::concurrency::Monitor::Monitor(class apache::thrift::concurrency::Mutex *)" (??0Monitor@concurrency@thrift@apache@@QEAA@PEAVMutex@123@@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: __cdecl apache::thrift::concurrency::Monitor::Monitor(void)" (??0Monitor@concurrency@thrift@apache@@QEAA@XZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: virtual __cdecl apache::thrift::concurrency::Monitor::~Monitor(void)" (??1Monitor@concurrency@thrift@apache@@UEAA@XZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Monitor::lock(void)const " (?lock@Monitor@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: class apache::thrift::concurrency::Mutex & __cdecl apache::thrift::concurrency::Monitor::mutex(void)const " (?mutex@Monitor@concurrency@thrift@apache@@QEBAAEAVMutex@234@XZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Monitor::notify(void)const " (?notify@Monitor@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Monitor::notifyAll(void)const " (?notifyAll@Monitor@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: virtual void __cdecl apache::thrift::concurrency::Monitor::unlock(void)const " (?unlock@Monitor@concurrency@thrift@apache@@UEBAXXZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: void __cdecl apache::thrift::concurrency::Monitor::wait(__int64)const " (?wait@Monitor@concurrency@thrift@apache@@QEBAX_J@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: int __cdecl apache::thrift::concurrency::Monitor::waitForTime(struct thrift_timespec const *)const " (?waitForTime@Monitor@concurrency@thrift@apache@@QEBAHPEBUthrift_timespec@@@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: int __cdecl apache::thrift::concurrency::Monitor::waitForTime(struct timeval const *)const " (?waitForTime@Monitor@concurrency@thrift@apache@@QEBAHPEBUtimeval@@@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: int __cdecl apache::thrift::concurrency::Monitor::waitForTimeRelative(__int64)const " (?waitForTimeRelative@Monitor@concurrency@thrift@apache@@QEBAH_J@Z) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+BoostMonitor.obj : warning LNK4006: "public: int __cdecl apache::thrift::concurrency::Monitor::waitForever(void)const " (?waitForever@Monitor@concurrency@thrift@apache@@QEBAHXZ) 已在 StdMonitor.obj 中定义；已忽略第二个定义
+  libthrift.vcxproj -> F:\ProgramFiles\thrift\thrift-0.9.3\lib\cpp\x64\Debug\libthrift.lib

@@ -1,0 +1,41 @@
+﻿  TAsyncChannel.cpp
+  BoostMonitor.cpp
+  BoostMutex.cpp
+  BoostThreadFactory.cpp
+  StdThreadFactory.cpp
+  ThreadManager.cpp
+  TimerManager.cpp
+src\thrift\concurrency\TimerManager.cpp(165): warning C4297: “apache::thrift::concurrency::TimerManager::~TimerManager”: 假定函数不引发异常，但确实发生了
+  src\thrift\concurrency\TimerManager.cpp(165): note: 析构函数或释放器具有一个(可能是隐含的)非引发异常规范
+  Util.cpp
+  PeekProcessor.cpp
+  TBase64Utils.cpp
+  TDebugProtocol.cpp
+  TJSONProtocol.cpp
+  TMultiplexedProtocol.cpp
+  TSimpleServer.cpp
+  TThreadPoolServer.cpp
+  TThreadedServer.cpp
+  TApplicationException.cpp
+  TBufferTransports.cpp
+  TFDTransport.cpp
+  THttpClient.cpp
+  正在编译...
+  THttpServer.cpp
+  THttpTransport.cpp
+  TPipe.cpp
+  TPipeServer.cpp
+  TServerSocket.cpp
+  TSimpleFileTransport.cpp
+  TFileTransport.cpp
+  TSocket.cpp
+src\thrift\transport\TSocket.cpp(686): warning C4838: 从“int”转换到“u_short”需要收缩转换
+  TSSLSocket.cpp
+  TTransportException.cpp
+  TTransportUtils.cpp
+  GetTimeOfDay.cpp
+  OverlappedSubmissionThread.cpp
+  SocketPair.cpp
+  TWinsockSingleton.cpp
+  WinFcntl.cpp
+  libthrift.vcxproj -> F:\ProgramFiles\thrift\thrift-0.9.3\lib\cpp\x64\Release\libthrift.lib
