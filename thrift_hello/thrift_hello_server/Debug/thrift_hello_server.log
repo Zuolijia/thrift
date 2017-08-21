@@ -1,0 +1,9 @@
+﻿  server.cpp
+f:\code\thrift_hello\thrift_hello_server\helloservice.h(10): fatal error C1083: 无法打开包括文件: “thrift/TDispatchProcessor.h”: No such file or directory
+  Hello_types.cpp
+f:\code\thrift_hello\thrift_hello_server\hello_types.h(12): fatal error C1083: 无法打开包括文件: “thrift/Thrift.h”: No such file or directory
+  Hello_constants.cpp
+f:\code\thrift_hello\thrift_hello_server\hello_types.h(12): fatal error C1083: 无法打开包括文件: “thrift/Thrift.h”: No such file or directory
+  HelloService.cpp
+f:\code\thrift_hello\thrift_hello_server\helloservice.h(10): fatal error C1083: 无法打开包括文件: “thrift/TDispatchProcessor.h”: No such file or directory
+  正在生成代码...

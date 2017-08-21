@@ -1,0 +1,7 @@
+﻿  Hello_types.cpp
+  Hello_constants.cpp
+  HelloService.cpp
+  client.cpp
+  正在生成代码...
+  thrift_hello_client.vcxproj -> F:\Code\thrift_hello\x64\Debug\thrift_hello_client.exe
+  thrift_hello_client.vcxproj -> F:\Code\thrift_hello\x64\Debug\thrift_hello_client.pdb (Partial PDB)

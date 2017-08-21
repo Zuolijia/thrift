@@ -1,0 +1,7 @@
+﻿  server.cpp
+  Hello_types.cpp
+  Hello_constants.cpp
+  HelloService.cpp
+  正在生成代码...
+  thrift_hello_server.vcxproj -> F:\Code\thrift_hello\x64\Debug\thrift_hello_server.exe
+  thrift_hello_server.vcxproj -> F:\Code\thrift_hello\x64\Debug\thrift_hello_server.pdb (Partial PDB)
